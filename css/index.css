@@ -1,0 +1,160 @@
+body	{
+	font: 300 25px/30px "Roboto Condensed", Tahoma, Arial, Helvetica, sans-serif;
+	color: #000;
+	background: #f0f0f0;
+}
+
+main {
+	max-width: 800px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+header {
+	background: #f0f0f0;
+	text-align: center;
+	padding: 25px 0;
+}
+
+h1 {
+	font-weight: normal;
+	height: 30px;
+}
+
+h2 {
+	font-weight: normal;
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+	display: block;
+	padding: 0 24px;
+}
+
+p.header {
+	font-size: 35px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.25em;
+	padding: 0 20px 32px;
+}
+
+p.footer {
+	font-weight: normal;
+	padding-bottom: 20px;
+}
+
+section {
+	background: #fff;
+	margin: 0 0 16px 0;
+	padding: 20px 0 0 0;
+}
+
+section img {
+	object-fit: contain;
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+.banner {
+	font-size: 32px;
+	color: #fff;
+	background: #7371a0;
+	line-height: 1.15em;
+	text-align: center;
+	/*padding: 8px 16px;*/
+}
+
+ul.features {
+	column-count: 2;
+	padding: 0 20px 20px;
+}
+
+ul.features li {
+	background: url(../img/marker.png) 0 50% no-repeat;
+	padding: 10px 0 10px 50px;
+}
+
+.reviews {
+	background: #cfedea;
+}
+
+.reviews-list {
+	padding: 0 40px;
+}
+
+.reviews-list__item {
+	background: #fff;
+}
+
+.reviews-list__item .photo {
+	background: transparent url(../img/bg-photo-holder.png) no-repeat 0% 0%;
+	width: 114px;
+	height: 114px;
+	/*position: absolute;*/
+	margin: 0 24px 0 0;
+	padding: 6px 24px 8px 7px;
+	float: left;
+}
+
+.reviews-list__item img {
+    vertical-align: top;
+    width: 114px;
+    height: 114px;
+}
+
+
+.out-top-4 {margin-top: 4px;}
+.out-top-8 {margin-top: 8px;}
+.out-top-12 {margin-top: 12px;}
+.out-top-16 {margin-top: 16px;}
+.out-top-20 {margin-top: 20px;}
+.out-top-24 {margin-top: 24px;}
+
+.out-bottom-4 {margin-bottom: 4px;}
+.out-bottom-8 {margin-bottom: 8px;}
+.out-bottom-12 {margin-bottom: 12px;}
+.out-bottom-16 {margin-bottom: 16px;}
+.out-bottom-20 {margin-bottom: 20px;}
+.out-bottom-24 {margin-bottom: 24px;}
+
+.in-top-4  {padding-top: 4px;}
+.in-top-8  {padding-top: 8px;}
+.in-top-12 {padding-top: 12px;}
+.in-top-16 {padding-top: 16px;}
+.in-top-20 {padding-top: 20px;}
+.in-top-24 {padding-top: 24px;}
+
+.in-bottom-4  {padding-bottom: 4px;}
+.in-bottom-8  {padding-bottom: 8px;}
+.in-bottom-12 {padding-bottom: 12px;}
+.in-bottom-16 {padding-bottom: 16px;}
+.in-bottom-20 {padding-bottom: 20px;}
+.in-bottom-24 {padding-bottom: 24px;}
+
+.no-padding-top {
+	padding-top: 0;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0;
+}
+
+.no-margin-top {
+	margin-top: 0;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+
+.red {
+	color: #f00;
+}
+
+@media screen and (max-width: 800px) {
+	main {
+		width: 100%;
+	}
+}
